@@ -1,0 +1,26 @@
+{
+  "name": "trueforge-secure-agent-harness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavan3030-pr/trueforge-secure-agent-harness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Pavan3030-pr/trueforge-secure-agent-harness/issues"
+  },
+  "homepage": "https://github.com/Pavan3030-pr/trueforge-secure-agent-harness#readme",
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
