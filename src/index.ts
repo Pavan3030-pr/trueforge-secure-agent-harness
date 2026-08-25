@@ -1,5 +1,5 @@
 import * as readline from 'readline';
-import { AgentHarness } from './harness';
+import { AgentHarness } from './harness.js';
 import { FileSystemAction } from './tools';
 
 const rl = readline.createInterface({

@@ -1,4 +1,4 @@
-import { FileSystemTools, ToolResult, FileSystemAction } from './tools';
+import { FileSystemTools, ToolResult, FileSystemAction } from './tools.js';
 
 export type InterceptorCallback = () => Promise<string>;
 

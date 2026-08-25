@@ -1,6 +1,5 @@
 import * as readline from 'readline';
-import { AgentHarness } from './harness';
-import { FileSystemAction } from './tools';
+import { AgentHarness } from './harness.js';
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -60,4 +59,3 @@ function launchInteractiveHarnessConsole() {
     });
 }
 launchInteractiveHarnessConsole();
-//# sourceMappingURL=index.js.map

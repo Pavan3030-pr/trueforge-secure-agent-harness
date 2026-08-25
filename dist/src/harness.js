@@ -1,4 +1,4 @@
-import { FileSystemTools, ToolResult, FileSystemAction } from './tools';
+import { FileSystemTools } from './tools.js';
 export class AgentHarness {
     isThreadLocked = false;
     async executeAction(actionType, targetFile, requestApprovalHook) {
@@ -19,4 +19,3 @@ export class AgentHarness {
         return await FileSystemTools.readFile(targetFile);
     }
 }
-//# sourceMappingURL=harness.js.map
