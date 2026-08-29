@@ -37,6 +37,6 @@ node dist/index.js
 
 This project strictly adhered to the hackathon's core engineering principles. Every single architecture adjustment was routed through a GitHub Pull Request reviewed by Qodo before merging to main.
 
-* **Merged Pull Request URL:** https://github.com
+* **Merged Pull Request URL:** https://github.com/Pavan3030-pr/trueforge-secure-agent-harness/pulls?q=is%3Apr+is%3Aclosed
 * **Scan Profile:** Qodo initially identified 4 bugs involving wrong package entrypoints, NodeNext ECMAScript relative import extensions, and thread-lock reliability failures.
 * **Remediation Strategy:** We refactored package options, appended modern `.js` path extensions, and wrapped our critical TrueForge freeze thread layer inside fail-safe `try/finally` blocks, reducing the bug tracking matrix to a flawless **0 Bugs**.
